@@ -2,8 +2,6 @@
 
 EduTrack is a responsive web application designed to help students and instructors track educational progress across multiple courses. It provides intuitive tools for monitoring module completion, performance metrics, upcoming deadlines, and more.
 
-![EduTrack Screenshot](https://via.placeholder.com/800x400?text=EduTrack+Screenshot)
-
 ## Features
 
 ### For Students
