@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom responsive styling */
+@layer base {
+  html {
+    @apply text-base sm:text-base;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    @apply antialiased text-gray-900 bg-gray-100;
+  }
+}
+
+@layer components {
+  /* Responsive container styles */
+  .container-responsive {
+    @apply px-3 sm:px-6 md:px-8 mx-auto;
+  }
+  
+  /* Card styles with responsive spacing */
+  .card-responsive {
+    @apply bg-white rounded-lg shadow-sm p-3 sm:p-5;
+  }
+  
+  /* Responsive typography */
+  .heading-lg {
+    @apply text-lg sm:text-xl lg:text-2xl font-bold;
+  }
+  
+  .heading-md {
+    @apply text-base sm:text-lg font-semibold;
+  }
+  
+  .text-responsive {
+    @apply text-xs sm:text-sm;
+  }
+
+  /* Responsive table */
+  .table-responsive {
+    @apply min-w-full overflow-hidden md:rounded-lg;
+  }
+  
+  /* Responsive grid layouts */
+  .grid-sidebar {
+    @apply grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6;
+  }
+  
+  .sidebar {
+    @apply space-y-4 sm:space-y-6;
+  }
+  
+  .main-content {
+    @apply lg:col-span-2;
+  }
+}
